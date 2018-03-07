@@ -1,5 +1,5 @@
 /**
-* Package for calculate task.
+* Package for tests.
 *
 * @author Dmitriy Pochtarev (ts4dmitry@yandex.ru)
 * @version $Id$
