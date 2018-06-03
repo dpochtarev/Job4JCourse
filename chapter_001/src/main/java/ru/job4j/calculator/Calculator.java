@@ -16,10 +16,10 @@ public class Calculator {
     }
 
     public void div(double first, double second) {
-        this.result = first/second;
+        this.result = first / second;
     }
 
     public void multiple(double first, double second) {
-        this.result = first*second;
+        this.result = first * second;
     }
 }
