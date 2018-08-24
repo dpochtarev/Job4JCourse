@@ -20,4 +20,11 @@ public class MaxTest {
         assertThat(result, is(4));
     }
 
+    @Test
+    public void whenSecondMax() {
+        Max max = new Max();
+        int result = max.max(-3, 17, 2);
+        assertThat(result, is(17));
+    }
+
 }
