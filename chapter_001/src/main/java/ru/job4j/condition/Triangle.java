@@ -58,7 +58,7 @@ public class Triangle {
      * @return существует ли треугольник со сторонами ab, ac, bc
      */
     private boolean exist(double ab, double ac, double bc) {
-        return ac <= ab ? ac + bc != ab : ab + bc != ac;
+        return ab < ac + bc && ac < ab + bc && bc < ab + ac;
     }
 }
 
