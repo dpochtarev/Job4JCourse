@@ -6,16 +6,12 @@ public class MatrixCheck {
         boolean result = true;
         boolean first = data[0][0];
         boolean second = data[0][data.length - 1];
-        for (int i = 0; i < data.length; i++) {
-            if (data[i][i] == first) {
-                first = data[i][i];
-            } else {
-                return false;
-            }
-            if (data[i][data.length - 1 - i] == second) {
-                second = data[i][data.length - 1 - i];
-            } else {
-                return false;
+        for (int i = 0; i < data.length - 1; i++) {
+            if (data[i][i] != data[i + 1][i + 1]
+                    || data[data.length - 1 - i][i] != data[data.length - 2 - i][i + 1])
+            {
+                result = false;
+                break;
             }
         }
         return result;
