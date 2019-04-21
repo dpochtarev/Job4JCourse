@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 public class Triangle {
-
     private Point a;
     private Point b;
     private Point c;

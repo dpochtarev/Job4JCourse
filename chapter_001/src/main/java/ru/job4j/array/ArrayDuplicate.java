@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class ArrayDuplicate {
 
     public String[] remove(String[] array) {
-
             for (int i = 0; i < array.length; i++) {
                 String temp = array[i];
                 for (int j = 0; j < array.length; j++) {
@@ -21,7 +20,6 @@ public class ArrayDuplicate {
                     }
                 }
             }
-
         return array;
     }
 
